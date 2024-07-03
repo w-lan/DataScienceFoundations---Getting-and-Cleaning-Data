@@ -18,10 +18,10 @@ The README that explains the analysis files is clear and understandable.
 The work submitted for this project is the work of the student who submitted it.
 
 
-##Source Data:
+* Source Data:
 ["UC Irvine Repo"](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-| ##Criterion | ##Link |
+| * Criterion | * Link |
 |:----------|:-----|
 |Tidy Dataset|
 |Analysis R Script|
