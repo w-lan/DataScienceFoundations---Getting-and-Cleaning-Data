@@ -23,7 +23,7 @@ The work submitted for this project is the work of the student who submitted it.
 
 | **Criterion** | **Link** |
 |:----------|:-----|
-|Tidy Dataset|
+|Tidy Dataset|[tidy_data.txt](https://github.com/w-lan/DataScienceFoundations-Getting_and_Cleaning_Data/blob/main/tidy_data.txt)
 |Analysis R Script|[run_analysis.R](https://github.com/w-lan/DataScienceFoundations-Getting_and_Cleaning_Data/blob/main/run_analysis.R)
 |Github Repo|[Github Repo](https://github.com/w-lan/DataScienceFoundations-Getting_and_Cleaning_Data/tree/main)
 |Code Book|[CodeBook.Rmd](https://github.com/w-lan/DataScienceFoundations-Getting_and_Cleaning_Data/blob/main/CodeBook.Rmd)
