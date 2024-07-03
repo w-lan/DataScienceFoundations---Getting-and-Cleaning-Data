@@ -1,4 +1,4 @@
-# Coursera: Data Science Foundations - Getting and Cleaning Data Project
+# Coursera: Data Science Foundations - Getting and Cleaning Data Assignment
 
 **Author: William Landers**
   
@@ -45,10 +45,10 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
   
-### Requirements  
+### Requirements /  Transformations  
 Create one R script called run_analysis.R that does the following:   
-- Merges the training and test data sets to create one data set.  
-- Extracts only the measurements on the mean and standard deviation for each measurement. 
-- Uses descriptive activity names to name the activities in the data set.  
-- Appropriately labels the data set with descriptive variable names.  
-- From the data set in step 4, creates a second, independent tidy data set with the     average of each variable for each activity and each subject.  
+- Merge the training and test data sets to create one data set.  
+- Extract only the measurements on the mean and standard deviation for each measurement. 
+- Use descriptive activity names to name the activities in the data set.  
+- Appropriately label the data set with descriptive variable names.  
+- From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.  
