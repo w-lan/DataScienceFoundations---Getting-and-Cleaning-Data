@@ -27,5 +27,5 @@ The work submitted for this project is the work of the student who submitted it.
 |Tidy Dataset|
 |Analysis R Script|
 |Github Repo|
-|Code Book|
+|Code Book|["CodeBook.Rmd"](https://github.com/w-lan/DataScienceFoundations-Getting_and_Cleaning_Data/blob/main/CodeBook.Rmd)
 |README|["README.md"](https://github.com/w-lan/DataScienceFoundations-Getting_and_Cleaning_Data/edit/main/README.md) 
