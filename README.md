@@ -3,9 +3,9 @@ Coursera Data Science Foundations - Getting and Cleaning Data Project
 
 Author: William Landers
 
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
+The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.   
 
-Grading Criteria
+Grading Criteria  
 The submitted data set is tidy. 
 
 The Github repo contains the required scripts.
