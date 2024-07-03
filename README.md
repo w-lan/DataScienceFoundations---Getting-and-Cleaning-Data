@@ -1,7 +1,7 @@
 # DataScienceFoundations - Getting and Cleaning Data
 Coursera Data Science Foundations - Getting and Cleaning Data Project
 
-Author: William Landers
+**Author: William Landers**
 
 The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.   
 
@@ -18,10 +18,10 @@ The README that explains the analysis files is clear and understandable.
 The work submitted for this project is the work of the student who submitted it.
 
 
-* Source Data:
+**Source Data:**
 ["UC Irvine Repo"](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-| * Criterion | * Link |
+| **Criterion** | **Link** |
 |:----------|:-----|
 |Tidy Dataset|
 |Analysis R Script|
