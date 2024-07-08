@@ -16,7 +16,7 @@ The README that explains the analysis files is clear and understandable.
 
 The work submitted for this project is the work of the student who submitted it.
 
-**Instructions**
+**Instructions**  
 Download and place the run_analysis.R script in your working directory.  
 
 Run the script using source("run_analysis.R").  
