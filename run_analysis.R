@@ -69,7 +69,7 @@ setnames(combined, old = "activity_id", new = "activity")
 combined[["subject_id"]] <- as.factor(combined[,subject_id])
 
 # wide > long
-combined <- reshape2::melt(data = combined, id = c("subject_id", "activity_id"))
+combined <- reshape2::melt(data = combined, id = c("subject_id", "activity"))
 
 # Average of each variable for (subject, activity) pairs. 
 combined <- reshape2::dcast(data = combined, subject_id + activity ~ variable, fun.aggregate = mean)
