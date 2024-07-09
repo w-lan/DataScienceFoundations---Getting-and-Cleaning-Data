@@ -29,7 +29,20 @@ features <- fread(file.path(path, "UCI HAR Dataset/features.txt")
 # Retain mean and standard deviation measurements for each feature
 idx_retain_features <- grep("(mean|std)\\(\\)", features[, feature])
 measurements <- features[idx_retain_features, feature]
-measurements <- gsub('[()]', '', measurements)
+measurements <- gsubfn("^t|^f|Acc|Gyro|Mag|BodyBody|\\(\\)|mean|std",
+                   list(
+                     "t" = "Time",
+                     "f" = "Frequency",
+                     "Acc" = "Accelerometer",
+                     "Gyro" = "Gyroscope",
+                     "Mag" = "Magnitude",
+                     "BodyBody" = "Body",
+                     "()" = "",
+                     "mean" = "Mean",
+                     "std" = "Standard Deviation"
+                   ),
+                   measurements
+)
 
 # Bind training and test data with subject and activity ID
 train <- fread(file.path(path, "UCI HAR Dataset/train/X_train.txt"))[, idx_retain_features, with = FALSE]
