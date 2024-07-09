@@ -18,7 +18,9 @@ sapply(pkgs, require, character.only=TRUE, quietly=TRUE)
 path <- getwd()
 url <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
 download.file(url, file.path(path, "data.zip"))
-unzip(zipfile = "data.zip")
+if(!file.exists("UCI HAR Dataset")) {
+  unzip(zipfile = "data.zip")
+}
 
 # Activity Labels / Features
 activity_labels <- fread(file.path(path, "UCI HAR Dataset/activity_labels.txt")
