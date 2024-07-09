@@ -16,6 +16,12 @@ The README that explains the analysis files is clear and understandable.
 
 The work submitted for this project is the work of the student who submitted it.
 
+**Instructions**  
+Download and place the run_analysis.R script in your working directory.  
+
+Run the script using source("run_analysis.R").  
+
+The script will download the dataset, process it, and create a file named tidy_data.txt in your working directory.
 
 **Source Data:**
 ["UC Irvine Repo"](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
